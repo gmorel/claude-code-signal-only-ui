@@ -1,0 +1,7 @@
+> **👉 For you**
+> 🟡 **Decide: A, B or C? How should the README demo stay honest once hooks/ change. A = hand-drawn GIF. B = record real sessions. C = ship both. If you say nothing: B**
+> ▫️ A — hand-drawn GIF. ~2h. Risk: high.
+> ▫️ B — record real sessions. ≈ 45 min. Risk: low. Cost: ~$1.
+> ▫️ C — ship both. 1 day. Risk: medium.
+> 🟢 204/204 unit tests pass.
+> ⚠️ The README demo will lie without re-running npm run demo after hooks/ edits.

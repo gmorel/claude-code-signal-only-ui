@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&amp;display=swap">
+  <style>
+    body { margin: 0; background: #0F1620; }
+    a { color: #4CC9DC; } a:hover { color: #7FDDEA; }
+  </style>
+</helmet>
+<div style="width: 520px; min-height: 760px; background: #0F1620; color: #DCE6F0; font-family: 'IBM Plex Mono', Menlo, Consolas, monospace; font-size: 13px; line-height: 1.55; padding: 18px 20px 22px 20px; display: flex; flex-direction: column; gap: 14px; box-sizing: border-box;">
+
+  <div style="display: flex; flex-direction: column; gap: 2px; color: #6B7A8A;">
+    <div style="display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span>Make the repo public and wire CI</span></div>
+    <div style="display: flex; gap: 8px;"><span>⏺</span><span>Read(.github/workflows/ci.yml)</span></div>
+    <div style="display: flex; gap: 8px;"><span>⏺</span><span>Bash(gh api /repos/gmorel/claude-code-signal-only-ui)</span></div>
+  </div>
+
+  <div style="display: flex; gap: 10px; align-items: flex-start;">
+    <span style="color: #DCE6F0;">⏺</span>
+    <div style="flex-grow: 1; border: 1px solid #2A3A4C; border-radius: 8px; display: flex; flex-direction: column; overflow: hidden;">
+
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 8px 14px; background: #161F2B; border-bottom: 1px solid #2A3A4C;">
+        <span style="font-weight: 700;">👉 For you</span>
+        <span style="color: #5CC48A; font-size: 12px;">✓</span>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; padding: 12px 14px 0 14px;">
+        <div style="border: 1px solid #F2C14E; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #F2C14E; line-height: 1.1;">1</span><span style="font-size: 11px; color: #A7B3C0;">decision</span></div>
+        <div style="border: 1px solid #2A3A4C; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #5CC48A; line-height: 1.1;">3/3</span><span style="font-size: 11px; color: #A7B3C0;">done, proven</span></div>
+        <div style="border: 1px solid #2A3A4C; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #F0A050; line-height: 1.1;">1</span><span style="font-size: 11px; color: #A7B3C0;">to read</span></div>
+        <div style="border: 1px solid #2A3A4C; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #6B7A8A; line-height: 1.1;">0</span><span style="font-size: 11px; color: #A7B3C0;">blocked</span></div>
+      </div>
+
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 10px;">
+        <div style="border: 1px solid #F2C14E; border-radius: 6px; padding: 10px 14px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 10px;">
+            <span style="color: #F2C14E; font-size: 11px; letter-spacing: 0.08em; font-weight: 700;">🟡 DECISION</span>
+            <span style="color: #6B7A8A; font-size: 11px;">1 of 1 · pick one</span>
+          </div>
+          <div style="font-weight: 700; font-size: 14px;">The e2e suite needs a real claude binary and a tmux, and GitHub Actions has neither. How should CI run the tests once the repo is public?</div>
+          <div style="color: #6B7A8A; font-size: 12px;">Why it comes up: from the first push the README badge will say "failing" unless CI has an answer.</div>
+          <div style="color: #6B7A8A; font-size: 12px;">if you say nothing → option 2 · in 14:32</div>
+
+          <div style="display: flex; flex-direction: column; border-top: 1px solid #2A3A4C; margin: 0 -14px;">
+            <div style="display: grid; grid-template-columns: 28px minmax(0, 1fr) 118px; gap: 10px; padding: 8px 10px; background: #3A2E10;">
+              <div style="font-weight: 700; font-size: 16px;">1</div>
+              <div style="display: flex; flex-direction: column; gap: 2px; min-width: 0;">
+                <div style="font-weight: 700;">Record one real session, replay it in CI <span style="font-size: 11px; background: #F2C14E; color: #0F1620; border-radius: 3px; padding: 0 6px; font-weight: 400;">recommended</span></div>
+                <div style="font-size: 12px; color: #A7B3C0;">aimock already scripts the API; a recorded claude transcript lets the tmux step run without the binary.</div>
+              </div>
+              <div style="display: flex; flex-direction: column; align-items: flex-end; font-size: 11px; color: #A7B3C0;">
+                <span>≈ 45 min</span>
+                <span style="color: #F0A050;">risk: medium</span>
+                <span>≈ $1.20</span>
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: 28px minmax(0, 1fr) 118px; gap: 10px; padding: 8px 10px; border-top: 1px solid #2A3A4C;">
+              <div style="font-weight: 700; font-size: 16px;">2</div>
+              <div style="display: flex; flex-direction: column; gap: 2px; min-width: 0;">
+                <div style="font-weight: 700;">Unit tests in CI, e2e stays local <span style="font-size: 11px; border: 1px solid #4B5867; color: #A7B3C0; border-radius: 3px; padding: 0 6px; font-weight: 400;">default</span></div>
+                <div style="font-size: 12px; color: #A7B3C0;">CI runs bun test tests/unit (108 tests) in 20 s; the README says e2e is a local gate.</div>
+              </div>
+              <div style="display: flex; flex-direction: column; align-items: flex-end; font-size: 11px; color: #A7B3C0;">
+                <span>≈ 5 min</span>
+                <span style="color: #5CC48A;">risk: low</span>
+                <span>≈ $0.05</span>
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: 28px minmax(0, 1fr) 118px; gap: 10px; padding: 8px 10px; border-top: 1px solid #2A3A4C;">
+              <div style="font-weight: 700; font-size: 16px;">3</div>
+              <div style="display: flex; flex-direction: column; gap: 2px; min-width: 0;">
+                <div style="font-weight: 700;">Install claude in CI with an API key secret</div>
+                <div style="font-size: 12px; color: #A7B3C0;">Real binary, real API, real proof — and a paid key in the repository secrets.</div>
+              </div>
+              <div style="display: flex; flex-direction: column; align-items: flex-end; font-size: 11px; color: #A7B3C0;">
+                <span>≈ 20 min</span>
+                <span style="color: #E0605A;">risk: high</span>
+                <span>≈ $0.30 per run</span>
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: 28px minmax(0, 1fr) 118px; gap: 10px; padding: 8px 10px; border-top: 1px solid #2A3A4C;">
+              <div style="font-weight: 700; font-size: 16px;">4</div>
+              <div style="display: flex; flex-direction: column; gap: 2px; min-width: 0;">
+                <div style="font-weight: 700;">Something else</div>
+                <span style="border: 1px solid #4B5867; color: #6B7A8A; font-size: 12px; padding: 2px 8px; display: inline-block;">type here, Enter sends it as your answer_</span>
+              </div>
+              <div style="display: flex; flex-direction: column; align-items: flex-end; font-size: 11px; color: #A7B3C0;">
+                <span>I read it</span>
+                <span>then plan</span>
+                <span>&nbsp;</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="color: #6B7A8A; font-size: 12px;">keys 1 · 2 · 3 · 4 · Esc = later</div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 10px; align-items: center; padding: 8px 14px; border-top: 1px solid #2A3A4C; color: #6B7A8A; font-size: 12px;">
+        <span>rest of the card: 3 done · 1 read · 2 notes</span>
+        <span style="border: 1px solid #4B5867; border-radius: 4px; padding: 0 8px; color: #A7B3C0;">[ show ]</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; gap: 8px; color: #6B7A8A; font-size: 12px;"><span>✻ Worked for 9s · waiting for you</span><span><span style="color: #A7B3C0;">≈ $0.14</span> · 31k tokens · API price</span></div>
+  <div style="border-top: 1px solid #2A3A4C; padding-top: 8px; display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span style="color: #4B5867;">|</span></div>
+</div>
+</x-dc>
+</body>
+</html>

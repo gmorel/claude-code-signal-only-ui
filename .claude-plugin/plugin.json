@@ -1,0 +1,48 @@
+{
+  "name": "signal-only-ui",
+  "version": "0.8.0",
+  "description": "Signal-only replies in Claude Code: the model writes the substance (verdict, decision, done, read), a themed renderer draws the form — folded details, hidden observer reports, a witness check. Four themes, and a skill to design your own. Needs function hooks (early access).",
+  "author": { "name": "Guillaume Morel" },
+  "homepage": "https://github.com/gmorel/claude-code-signal-only-ui",
+  "repository": "https://github.com/gmorel/claude-code-signal-only-ui",
+  "license": "MIT",
+  "keywords": ["ui", "transcript", "signal", "card", "theme", "function-hooks", "mod"],
+  "userConfig": {
+    "theme": {
+      "type": "string",
+      "title": "Theme",
+      "description": "Which renderer draws the reply card: receipt, kanban, gmorel, or a theme file name under hooks/themes/.",
+      "default": "gmorel"
+    },
+    "prices": {
+      "type": "string",
+      "title": "API price table",
+      "description": "USD per million tokens for the cost footer: comma-separated family:input/output overrides, e.g. opus:15/75,sonnet:3/15. Unlisted families keep the built-in defaults.",
+      "default": ""
+    },
+    "observerMark": {
+      "type": "boolean",
+      "title": "Witness check for observers",
+      "description": "Hide background-observer reports and put a small dim green check on the card while an observer agent is running.",
+      "default": true
+    },
+    "foldNarration": {
+      "type": "boolean",
+      "title": "Fold narration between tool calls",
+      "description": "Collapse assistant text blocks that are followed by a tool call in the same turn into one dim line.",
+      "default": true
+    },
+    "foldNotifications": {
+      "type": "boolean",
+      "title": "Fold task notifications and peer messages",
+      "description": "Collapse task-notification, peer and scheduled-trigger messages into one dim line with a count.",
+      "default": true
+    },
+    "observerTypes": {
+      "type": "string",
+      "title": "Observer agent types",
+      "description": "Comma-separated agent definition names counted as observers for the witness check. /signal agents shows the names $.agent.list() reports.",
+      "default": "claim-sentinel"
+    }
+  }
+}

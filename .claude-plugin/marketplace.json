@@ -1,0 +1,14 @@
+{
+  "name": "claude-code-signal-only-ui",
+  "owner": {
+    "name": "Guillaume Morel"
+  },
+  "description": "Signal-only replies for Claude Code: the model writes the substance, a themed renderer draws the card. Four themes and a skill to design your own.",
+  "plugins": [
+    {
+      "name": "signal-only-ui",
+      "source": "./",
+      "description": "Every marker-written reply drawn as a scannable card: verdict, one decision with its default, done with proof, to read; details folded, observer reports hidden behind a witness check."
+    }
+  ]
+}

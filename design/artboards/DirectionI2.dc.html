@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&amp;display=swap">
+  <style>
+    body { margin: 0; background: #0F1620; }
+    a { color: #4CC9DC; } a:hover { color: #7FDDEA; }
+    @keyframes glow { 0%, 100% { box-shadow: 0 0 0 2px #F2C14E, 0 0 18px rgba(242,193,78,0.25); } 50% { box-shadow: 0 0 0 2px #F2C14E, 0 0 34px rgba(242,193,78,0.55); } }
+    .rec { animation: glow 2.2s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .rec { animation: none; box-shadow: 0 0 0 2px #F2C14E; } }
+  </style>
+</helmet>
+<div style="width: 520px; min-height: 760px; background: #0F1620; color: #DCE6F0; font-family: 'IBM Plex Mono', Menlo, Consolas, monospace; font-size: 13px; line-height: 1.5; padding: 18px 20px 22px 20px; display: flex; flex-direction: column; gap: 14px; box-sizing: border-box;">
+
+  <div style="display: flex; gap: 8px; color: #6B7A8A;"><span style="color: #F2C14E;">❯</span><span>Steal the mermaid mod and put it in my claude OSX home</span></div>
+
+  <div style="display: flex; gap: 10px; align-items: flex-start;">
+    <span>⏺</span>
+    <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 12px;">
+
+      <div style="display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 14px; background: linear-gradient(90deg, #3A2E10 0%, #1A1A14 100%); border-left: 6px solid #F2C14E; border-radius: 0 8px 8px 0; padding: 12px 14px;">
+        <div style="font-size: 40px; line-height: 1; text-align: center;">👉</div>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+          <div style="font-size: 11px; letter-spacing: 0.12em; color: #F2C14E; font-weight: 700;">FOR YOU · ONE TAP</div>
+          <div style="font-weight: 700; font-size: 15px;">Patch your copy so fences inside a quote are drawn too?</div>
+          <div style="color: #C9A44A; font-size: 12px;">because your card-guard forces quotes, and two mermaid replies went undrawn today</div>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px;">
+        <div class="rec" style="background: #133024; border-radius: 10px; padding: 14px 12px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center;">
+          <div style="font-size: 44px; line-height: 1;">✅</div>
+          <div style="font-weight: 700;">1 · Patch it</div>
+          <div style="font-size: 11px; background: #F2C14E; color: #0F1620; border-radius: 3px; padding: 0 6px;">recommended</div>
+          <div style="font-size: 12px; color: #A7D8BC;">≈10 min · low risk<br>3 tests · real proof</div>
+        </div>
+        <div style="background: #161F2B; border: 1px solid #2A3A4C; border-radius: 10px; padding: 14px 12px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center;">
+          <div style="font-size: 44px; line-height: 1;">🚫</div>
+          <div style="font-weight: 700;">2 · Keep original</div>
+          <div style="font-size: 11px; color: #C9A44A;">default in 14:32</div>
+          <div style="font-size: 12px; color: #A7B3C0;">0 min · no risk<br>quotes stay undrawn</div>
+        </div>
+        <div style="background: #161F2B; border: 1px dashed #4B5867; border-radius: 10px; padding: 14px 12px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center;">
+          <div style="font-size: 44px; line-height: 1;">✍️</div>
+          <div style="font-weight: 700;">3 · Other</div>
+          <div style="font-size: 11px; color: #6B7A8A;">type below</div>
+          <div style="border: 1px solid #4B5867; border-radius: 3px; padding: 2px 8px; color: #6B7A8A; font-size: 12px; width: 100%; box-sizing: border-box; text-align: left;">_</div>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; color: #6B7A8A; font-size: 12px; padding: 0 4px;">
+        <span>⌨️ 1 · 2 · 3 · Esc later</span>
+        <span>🟢 5 done · ⚠️ 1 read · ▫️ 2 notes · ℹ️ 1 · <span style="text-decoration: underline;">show</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div style="color: #6B7A8A;">✻ Worked for 4s · waiting for you</div>
+  <div style="border-top: 1px solid #2A3A4C; padding-top: 8px; display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span style="color: #4B5867;">|</span></div>
+</div>
+</x-dc>
+</body>
+</html>

@@ -1,0 +1,11 @@
+> **👉 For you**
+> 🟡 **Decide: patch the copy or keep the original? If you say nothing: keep it.**
+> 🟢 Copied to ~/.claude/skills/claude-mermaid (16 files, LICENSE, provenance line).
+> 🟢 Loads from there: claude-mermaid@skills-dir · loaded (debug log read).
+> 🟢 Draws from there: Copie → Test → OK in a fresh session (screen captured).
+> 🟢 Marketplace copy uninstalled; claude-queue stays.
+> 🟢 42/42 unit tests; backup mirror checked at 09:36:27Z.
+> ⚠️ Two ui.render hooks would fire if the CI badge had stayed red.
+> ▫️ renamed `config.yml` to `config.yaml`; 12 tests still pass.
+> ▫️ the CI badge is green again.
+> ℹ️ Clone and node_modules live in the scratchpad, disposable.

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&amp;display=swap">
+  <style>
+    body { margin: 0; background: #0F1620; }
+    a { color: #4CC9DC; } a:hover { color: #7FDDEA; }
+  </style>
+</helmet>
+<div style="width: 520px; min-height: 760px; background: #0F1620; color: #DCE6F0; font-family: 'IBM Plex Mono', Menlo, Consolas, monospace; font-size: 13px; line-height: 1.55; padding: 18px 20px 22px 20px; display: flex; flex-direction: column; gap: 14px; box-sizing: border-box;">
+
+  <div style="display: flex; flex-direction: column; gap: 2px; color: #6B7A8A;">
+    <div style="display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span>Rerun the e2e in the background and tell me when it is done</span></div>
+    <div style="display: flex; gap: 8px;"><span>⏺</span><span>Bash(npm run test:e2e &gt; /tmp/e2e.log &amp;)</span></div>
+  </div>
+
+  <div style="display: flex; gap: 10px; align-items: flex-start;">
+    <span style="color: #DCE6F0;">⏺</span>
+    <div style="flex-grow: 1; border: 1px solid #2A3A4C; border-radius: 8px; padding: 8px 14px; display: flex; align-items: center; gap: 10px;">
+      <span>🟢</span>
+      <span style="flex-grow: 1; min-width: 0;">e2e relaunched in the background · task b41f · result in ≈ 3 min</span>
+      <span style="color: #5CC48A; font-size: 12px;">✓</span>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; gap: 8px; color: #6B7A8A; font-size: 12px;"><span>✻ Worked for 2s · done 14:02</span><span><span style="color: #A7B3C0;">≈ $0.01</span> · 3k tokens · API price</span></div>
+
+  <div style="border-top: 1px solid #2A3A4C; padding-top: 8px; display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span style="color: #4B5867;">|</span></div>
+
+  <div style="display: flex; gap: 8px; color: #6B7A8A;"><span style="color: #F2C14E;">❯</span><span>ok</span></div>
+
+  <div style="display: flex; gap: 8px; align-items: baseline; color: #6B7A8A;"><span>·</span><span>background task · npm run test:e2e · done</span><span style="border: 1px solid #2A3A4C; border-radius: 3px; padding: 0 8px;">show</span></div>
+
+  <div style="display: flex; gap: 10px; align-items: flex-start;">
+    <span style="color: #DCE6F0;">⏺</span>
+    <div style="flex-grow: 1; border: 1px solid #2A3A4C; border-radius: 8px; padding: 8px 14px; display: flex; align-items: center; gap: 10px;">
+      <span>🟢</span>
+      <span style="flex-grow: 1; min-width: 0;">9/9 e2e pass in 71 s — /tmp/e2e.log read back.</span>
+      <span style="color: #5CC48A; font-size: 12px;">✓</span>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; gap: 8px; color: #6B7A8A; font-size: 12px;"><span>✻ Worked for 1s · done 14:05</span><span><span style="color: #A7B3C0;">≈ $0.01</span> · 2k tokens · API price</span></div>
+  <div style="border-top: 1px solid #2A3A4C; padding-top: 8px; display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span style="color: #4B5867;">|</span></div>
+</div>
+</x-dc>
+</body>
+</html>

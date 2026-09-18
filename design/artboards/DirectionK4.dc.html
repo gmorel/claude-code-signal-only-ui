@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&amp;display=swap">
+  <style>
+    body { margin: 0; background: #0F1620; }
+    a { color: #4CC9DC; } a:hover { color: #7FDDEA; }
+  </style>
+</helmet>
+<div style="width: 520px; min-height: 760px; background: #0F1620; color: #DCE6F0; font-family: 'IBM Plex Mono', Menlo, Consolas, monospace; font-size: 13px; line-height: 1.55; padding: 18px 20px 22px 20px; display: flex; flex-direction: column; gap: 14px; box-sizing: border-box;">
+
+  <div style="display: flex; flex-direction: column; gap: 2px; color: #6B7A8A;">
+    <div style="display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span>Push the repo to GitHub and open the PR on awesome-claude-code-mods</span></div>
+    <div style="display: flex; gap: 8px;"><span>⏺</span><span>Bash(git remote -v)</span></div>
+    <div style="display: flex; gap: 8px;"><span>⏺</span><span>Bash(gh repo view gmorel/claude-code-signal-only-ui)</span></div>
+  </div>
+
+  <div style="display: flex; gap: 10px; align-items: flex-start;">
+    <span style="color: #DCE6F0;">⏺</span>
+    <div style="flex-grow: 1; border: 1px solid #2A3A4C; border-radius: 8px; display: flex; flex-direction: column; overflow: hidden;">
+
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 8px 14px; background: #161F2B; border-bottom: 1px solid #2A3A4C;">
+        <span style="font-weight: 700;">👉 For you</span>
+        <span style="color: #5CC48A; font-size: 12px;">✓</span>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; padding: 12px 14px 0 14px;">
+        <div style="border: 1px solid #2A3A4C; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #6B7A8A; line-height: 1.1;">0</span><span style="font-size: 11px; color: #A7B3C0;">decision</span></div>
+        <div style="border: 1px solid #2A3A4C; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #5CC48A; line-height: 1.1;">2/2</span><span style="font-size: 11px; color: #A7B3C0;">done, proven</span></div>
+        <div style="border: 1px solid #2A3A4C; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #F0A050; line-height: 1.1;">1</span><span style="font-size: 11px; color: #A7B3C0;">to read</span></div>
+        <div style="border: 1px solid #E0605A; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #E0605A; line-height: 1.1;">1</span><span style="font-size: 11px; color: #A7B3C0;">blocked</span></div>
+      </div>
+
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 10px;">
+        <div style="border: 1px solid #E0605A; border-radius: 6px; padding: 10px 14px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 10px;">
+            <span style="color: #E0605A; font-size: 11px; letter-spacing: 0.08em; font-weight: 700;">🔴 BLOCKED</span>
+            <span style="color: #6B7A8A; font-size: 11px;">only you can unblock</span>
+          </div>
+          <div style="font-weight: 700;">The GitHub repo gmorel/claude-code-signal-only-ui does not exist yet.</div>
+          <div style="font-size: 12px;">What I need from you: create it empty (no README, no licence), then say "push".</div>
+          <div style="background: #0B111A; border-radius: 4px; padding: 6px 10px; font-size: 12px; color: #DCE6F0;">gh repo create gmorel/claude-code-signal-only-ui --public</div>
+          <div style="color: #6B7A8A; font-size: 12px;">Meanwhile: nothing is pushed; the PR text is drafted and waits.</div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 5px; padding: 12px 14px; border-top: 1px solid #2A3A4C;">
+        <div style="display: flex; gap: 10px;"><span>🟢</span><span>7 commits on main, tree clean — git status read back.</span></div>
+        <div style="display: flex; gap: 10px;"><span>🟢</span><span>PR description drafted in /tmp/awesome-pr.md (title, 3 lines, screenshot link).</span></div>
+        <div style="display: flex; gap: 10px;"><span>⚠️</span><span>The awesome list asks for a release tag; v0.1.0 is not tagged yet.</span></div>
+        <div style="display: flex; gap: 10px;"><span>▫️</span><span>Picture: the parcel is packed and labelled; the letterbox is not built.</span></div>
+      </div>
+
+      <div style="display: flex; gap: 10px; align-items: center; padding: 8px 14px; border-top: 1px solid #2A3A4C; color: #6B7A8A;">
+        <span>ℹ️</span><span>1 skippable detail hidden</span><span style="border: 1px solid #4B5867; border-radius: 4px; padding: 0 8px; color: #A7B3C0;">[ show ]</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; gap: 8px; color: #6B7A8A; font-size: 12px;"><span>✻ Worked for 12s · blocked 14:41</span><span><span style="color: #A7B3C0;">≈ $0.06</span> · 15k tokens · API price</span></div>
+  <div style="border-top: 1px solid #2A3A4C; padding-top: 8px; display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span style="color: #4B5867;">|</span></div>
+</div>
+</x-dc>
+</body>
+</html>

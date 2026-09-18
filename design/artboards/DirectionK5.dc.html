@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&amp;display=swap">
+  <style>
+    body { margin: 0; background: #0F1620; }
+    a { color: #4CC9DC; } a:hover { color: #7FDDEA; }
+  </style>
+</helmet>
+<div style="width: 520px; min-height: 760px; background: #0F1620; color: #DCE6F0; font-family: 'IBM Plex Mono', Menlo, Consolas, monospace; font-size: 13px; line-height: 1.55; padding: 18px 20px 22px 20px; display: flex; flex-direction: column; gap: 14px; box-sizing: border-box;">
+
+  <div style="display: flex; flex-direction: column; gap: 2px; color: #6B7A8A;">
+    <div style="display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span>What does the witness check actually prove?</span></div>
+    <div style="display: flex; gap: 8px;"><span>⏺</span><span>Read(hooks/register.ts)</span></div>
+  </div>
+
+  <div style="display: flex; gap: 10px; align-items: flex-start;">
+    <span style="color: #DCE6F0;">⏺</span>
+    <div style="flex-grow: 1; border: 1px solid #2A3A4C; border-radius: 8px; display: flex; flex-direction: column; overflow: hidden;">
+
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 8px 14px; background: #161F2B; border-bottom: 1px solid #2A3A4C;">
+        <span style="font-weight: 700;">▫️ Answer</span>
+        <span style="color: #6B7A8A; font-size: 12px;">nothing to do</span>
+      </div>
+
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 10px;">
+        <div style="border-left: 3px solid #4CC9DC; background: #121B24; padding: 8px 12px; font-weight: 700; font-size: 14px; line-height: 1.45;">It proves an observer agent <span style="color: #5CC48A;">was running</span> while the reply was written — <span style="color: #F0A050;">not that the reply is right</span>.</div>
+
+        <div style="display: flex; flex-direction: column; gap: 6px; color: #A7B3C0;">
+          <div style="display: flex; gap: 10px;"><span>▫️</span><span><span style="color: #DCE6F0; font-weight: 700;">Once per turn</span> the mod asks <span style="background: #1B2634; color: #7FDDEA; border-radius: 3px; padding: 0 5px;">$.agent.list()</span> and looks for a type named in <span style="background: #1B2634; color: #7FDDEA; border-radius: 3px; padding: 0 5px;">observerTypes</span>.</span></div>
+          <div style="display: flex; gap: 10px;"><span>▫️</span><span><span style="color: #DCE6F0; font-weight: 700;">The report never reaches the screen:</span> it goes to the model; <span style="background: #1B2634; color: #7FDDEA; border-radius: 3px; padding: 0 5px;">/signal observers</span> shows it.</span></div>
+          <div style="display: flex; gap: 10px;"><span>▫️</span><span><span style="color: #DCE6F0; font-weight: 700;">No ✓ means</span> no observer ran, or its type is not in the option.</span></div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; font-size: 12px; color: #A7B3C0;">
+          <div style="display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 10px; padding: 6px 0; border-bottom: 1px solid #2A3A4C;"><span style="color: #5CC48A; font-weight: 700;">✓ shown</span><span>an agent of type <span style="background: #1B2634; color: #7FDDEA; border-radius: 3px; padding: 0 5px;">claim-sentinel</span> was in the list during the turn</span></div>
+          <div style="display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 10px; padding: 6px 0; border-bottom: 1px solid #2A3A4C;"><span style="color: #6B7A8A; font-weight: 700;">✓ absent</span><span>no observer, or a type the option does not name</span></div>
+          <div style="display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 10px; padding: 6px 0;"><span style="color: #F0A050; font-weight: 700;">report hidden</span><span>the text went to the model; <span style="background: #1B2634; color: #7FDDEA; border-radius: 3px; padding: 0 5px;">/signal observers</span> prints it</span></div>
+        </div>
+
+        <div style="background: #0B111A; border-radius: 4px; padding: 6px 10px; font-size: 12px; display: flex; flex-direction: column; gap: 2px;">
+          <div style="color: #7FDDEA;">/signal agents</div>
+          <div style="color: #A7B3C0;">claim-sentinel · <span style="color: #5CC48A;">running</span> · 1 · main · idle · 1</div>
+        </div>
+
+        <div style="display: flex; gap: 10px; color: #A7B3C0; font-style: italic;"><span style="font-style: normal;">▫️</span><span><span style="color: #DCE6F0; font-weight: 700; font-style: normal;">Picture:</span> the ✓ is the seal on the envelope — it says someone checked, not what they found.</span></div>
+      </div>
+
+      <div style="display: flex; gap: 10px; align-items: center; padding: 8px 14px; border-top: 1px solid #2A3A4C; color: #6B7A8A;">
+        <span>ℹ️</span><span>2 skippable details hidden</span><span style="border: 1px solid #4B5867; border-radius: 4px; padding: 0 8px; color: #A7B3C0;">[ show ]</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; gap: 8px; color: #6B7A8A; font-size: 12px;"><span>✻ Worked for 3s · done 14:44</span><span><span style="color: #A7B3C0;">≈ $0.02</span> · 6k tokens · API price</span></div>
+  <div style="border-top: 1px solid #2A3A4C; padding-top: 8px; display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span style="color: #4B5867;">|</span></div>
+</div>
+</x-dc>
+</body>
+</html>

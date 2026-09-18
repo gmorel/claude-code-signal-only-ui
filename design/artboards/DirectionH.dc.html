@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&amp;display=swap">
+  <style>
+    body { margin: 0; background: #141A22; }
+    a { color: #4CC9DC; } a:hover { color: #7FDDEA; }
+    @keyframes drop { from { transform: translateY(-10px) rotate(-1deg); opacity: 0; } to { transform: translateY(0) rotate(-1deg); opacity: 1; } }
+    .note { animation: drop 0.5s ease-out both; }
+    .note:nth-child(2) { animation-delay: 0.08s; } .note:nth-child(3) { animation-delay: 0.16s; } .note:nth-child(4) { animation-delay: 0.24s; } .note:nth-child(5) { animation-delay: 0.32s; } .note:nth-child(6) { animation-delay: 0.4s; }
+    @media (prefers-reduced-motion: reduce) { .note { animation: none; } }
+  </style>
+</helmet>
+<div style="width: 520px; min-height: 760px; background: #141A22; color: #DCE6F0; font-family: 'IBM Plex Mono', Menlo, Consolas, monospace; font-size: 12px; line-height: 1.45; padding: 18px 20px 22px 20px; display: flex; flex-direction: column; gap: 14px; box-sizing: border-box;">
+
+  <div style="display: flex; flex-direction: column; gap: 2px; color: #6B7A8A;">
+    <div style="display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span>Steal the mermaid mod and put it in my claude OSX home</span></div>
+    <div style="display: flex; gap: 8px;"><span>⏺</span><span>Bash(rsync -a --exclude node_modules … ~/.claude/skills/claude-mermaid/)</span></div>
+  </div>
+
+  <div style="display: flex; gap: 10px; align-items: flex-start;">
+    <span>⏺</span>
+    <div style="flex-grow: 1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; background: #1B232E; border-radius: 8px; padding: 14px;">
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-size: 11px; letter-spacing: 0.12em; font-weight: 700; color: #F2C14E;">TO DECIDE · 1</div>
+        <div class="note" style="background: #F6D56B; color: #3A2E10; padding: 10px 12px; transform: rotate(-1deg); box-shadow: 2px 3px 0 rgba(0,0,0,0.35); display: flex; flex-direction: column; gap: 6px;">
+          <div style="font-weight: 700;">Patch the copy so fences inside a quote are drawn too?</div>
+          <div style="font-size: 11px;">If you say nothing: leave it.</div>
+          <div style="display: flex; gap: 6px;"><span style="background: #3A2E10; color: #F6D56B; padding: 0 8px; font-weight: 700;">yes</span><span style="border: 1px solid #3A2E10; padding: 0 8px;">no</span></div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-size: 11px; letter-spacing: 0.12em; font-weight: 700; color: #5CC48A;">DONE · 5</div>
+        <div class="note" style="background: #8FE0B0; color: #0F2A1B; padding: 8px 10px; transform: rotate(-1deg); box-shadow: 2px 3px 0 rgba(0,0,0,0.35);">Copied to ~/.claude/skills/claude-mermaid<br><span style="font-size: 11px; opacity: 0.8;">16 files · LICENSE · provenance</span></div>
+        <div class="note" style="background: #8FE0B0; color: #0F2A1B; padding: 8px 10px; transform: rotate(-1deg); box-shadow: 2px 3px 0 rgba(0,0,0,0.35);">Loads from there<br><span style="font-size: 11px; opacity: 0.8;">claude-mermaid@skills-dir · debug log read</span></div>
+        <div class="note" style="background: #8FE0B0; color: #0F2A1B; padding: 8px 10px; transform: rotate(-1deg); box-shadow: 2px 3px 0 rgba(0,0,0,0.35);">Draws from there<br><span style="font-size: 11px; opacity: 0.8;">Copie → Test → OK · screen captured</span></div>
+        <div class="note" style="background: #8FE0B0; color: #0F2A1B; padding: 8px 10px; transform: rotate(-1deg); box-shadow: 2px 3px 0 rgba(0,0,0,0.35);">Marketplace copy uninstalled<br><span style="font-size: 11px; opacity: 0.8;">claude-queue stays</span></div>
+        <div class="note" style="background: #8FE0B0; color: #0F2A1B; padding: 8px 10px; transform: rotate(-1deg); box-shadow: 2px 3px 0 rgba(0,0,0,0.35);">42/42 tests<br><span style="font-size: 11px; opacity: 0.8;">backup mirror 09:36:27Z</span></div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <div style="font-size: 11px; letter-spacing: 0.12em; font-weight: 700; color: #F0A050;">TO READ · 1</div>
+        <div class="note" style="background: #F5B47A; color: #3B2A14; padding: 10px 12px; transform: rotate(1deg); box-shadow: 2px 3px 0 rgba(0,0,0,0.35);">Two ui.render hooks would fire if the marketplace copy had stayed.</div>
+        <div style="font-size: 11px; letter-spacing: 0.12em; font-weight: 700; color: #8C99A6; margin-top: 6px;">NOTES · 2</div>
+        <div class="note" style="background: #C9D2DC; color: #26303B; padding: 8px 10px; transform: rotate(1deg); box-shadow: 2px 3px 0 rgba(0,0,0,0.35); font-size: 11px;">cmux workspace 18 still runs the old copy; the next claude takes yours.</div>
+        <div class="note" style="background: #C9D2DC; color: #26303B; padding: 8px 10px; transform: rotate(-1deg); box-shadow: 2px 3px 0 rgba(0,0,0,0.35); font-size: 11px;">Picture: library book → your own annotatable photocopy.</div>
+        <div style="color: #6B7A8A; font-size: 11px;">+1 scrap folded · <span style="text-decoration: underline;">show</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="color: #6B7A8A;">✻ Worked for 4s · done 11:36 AM</div>
+  <div style="border-top: 1px solid #2A3A4C; padding-top: 8px; display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span style="color: #4B5867;">|</span></div>
+</div>
+</x-dc>
+</body>
+</html>

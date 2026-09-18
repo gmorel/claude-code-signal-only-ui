@@ -1,0 +1,383 @@
+{
+  "artboards": [
+    {
+      "file": "DirectionA.dc.html",
+      "title": "A · Markers kept",
+      "x": 0,
+      "y": 0,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionA2.dc.html",
+      "title": "K · gmorel-1.0.0 (your layout)",
+      "x": 0,
+      "y": 12000,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionB.dc.html",
+      "title": "B · Colour gutter, no emoji",
+      "x": 0,
+      "y": 1200,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "Main.dc.html",
+      "title": "C · Headline + drawers (candidate)",
+      "x": 0,
+      "y": 2400,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionC2.dc.html",
+      "title": "C′ · after the clicks",
+      "x": 640,
+      "y": 2400,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionD.dc.html",
+      "title": "D · Dashboard",
+      "x": 0,
+      "y": 3600,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionE.dc.html",
+      "title": "E · Tinted rows",
+      "x": 0,
+      "y": 4800,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionE2.dc.html",
+      "title": "E′ · Tinted rows, asking",
+      "x": 640,
+      "y": 4800,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionF.dc.html",
+      "title": "F · Receipt, one colour, ASCII",
+      "x": 0,
+      "y": 6000,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionF2.dc.html",
+      "title": "F′ · Receipt, asking",
+      "x": 640,
+      "y": 6000,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionG.dc.html",
+      "title": "G · Two lanes: your part / my part",
+      "x": 0,
+      "y": 7200,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionG2.dc.html",
+      "title": "G′ · Two lanes, asking",
+      "x": 640,
+      "y": 7200,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionH.dc.html",
+      "title": "H · Sticky-note board",
+      "x": 0,
+      "y": 8400,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionH2.dc.html",
+      "title": "H′ · Board, asking",
+      "x": 640,
+      "y": 8400,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionI.dc.html",
+      "title": "I · Big emoji sections",
+      "x": 0,
+      "y": 9600,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionI2.dc.html",
+      "title": "I′ · Emoji tiles, asking",
+      "x": 640,
+      "y": 9600,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionJ.dc.html",
+      "title": "J · Timeline rail",
+      "x": 0,
+      "y": 10800,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionJ2.dc.html",
+      "title": "J′ · Branching futures, asking",
+      "x": 640,
+      "y": 10800,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionK2.dc.html",
+      "title": "K′ · gmorel-1.0.0 in a real transcript",
+      "x": 640,
+      "y": 12000,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionK3.dc.html",
+      "title": "K″ · K asks a hard question",
+      "x": 0,
+      "y": 13200,
+      "w": 520,
+      "h": 1100
+    },
+    {
+      "file": "DirectionK4.dc.html",
+      "title": "K · blocked",
+      "x": 640,
+      "y": 13200,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionK5.dc.html",
+      "title": "K · an answer, nothing to do",
+      "x": 0,
+      "y": 14500,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionK6.dc.html",
+      "title": "K · long report with code",
+      "x": 640,
+      "y": 14500,
+      "w": 520,
+      "h": 1000
+    },
+    {
+      "file": "DirectionK7.dc.html",
+      "title": "K · one line, then a notification",
+      "x": 0,
+      "y": 15700,
+      "w": 520,
+      "h": 600
+    }
+  ],
+  "annotations": [
+    {
+      "id": "brief",
+      "x": -360,
+      "y": 0,
+      "w": 300,
+      "text": "One direction per row: the base rendering at the left, its variants to the right (A' = A with C's For-you box, C' = C after the clicks, E'…J' = the question-centred versions).\n\nSame reply everywhere. The model writes the substance (markers, verdict, one decision with its default); a function-hooks mod draws the form.\n\nAll boards are 520 px wide: the transcript column of a Claude Desktop window at ~40% of the screen."
+    },
+    {
+      "id": "note-a",
+      "x": 0,
+      "y": -185,
+      "w": 520,
+      "text": "A · Markers kept\nWhy: zero learning curve, your six emoji stay in the raw transcript, works on Desktop as markdown fallback.\nTrade-off: emoji carry the colour, so at a glance six markers in a mono font look alike; emoji widths shift alignment in some terminals."
+    },
+    {
+      "id": "note-b",
+      "x": 0,
+      "y": 1015,
+      "w": 520,
+      "text": "B · Colour gutter, no emoji\nWhy: colour reads faster than a glyph; the label column (DECIDE / DONE / READ / NOTE / SKIP) is searchable and aligns perfectly in monospace.\nTrade-off: the mod strips the emoji from the display, so a reader without the mod sees the raw markers; colour-blind readers rely on the labels only."
+    },
+    {
+      "id": "note-c",
+      "x": 0,
+      "y": 2215,
+      "w": 520,
+      "text": "C · Headline + drawers (my candidate)\nWhy: the least to read. One inverse-video headline, the decision box, then drawers: READ always open, DONE / NOTES / SKIP folded with counts. Narration between tool calls folds too.\nTrade-off: the proofs behind each done task are one click away, not on screen; clicks need the fullscreen renderer, keyboard otherwise."
+    },
+    {
+      "id": "note-d",
+      "x": 0,
+      "y": 3415,
+      "w": 520,
+      "text": "D · Dashboard\nWhy: proof gets its own column, so 'verified' is visible per task; counters on top; scan by column like a CI summary.\nTrade-off: needs a wide pane (≥100 columns); the model must write each done line as 'task — proof' for the mod to split it; dense for a short reply."
+    },
+    {
+      "id": "brief-2",
+      "x": -360,
+      "y": 4800,
+      "w": 300,
+      "text": "Round 2: six more, each on a different axis — background colour, one-colour ASCII, who-acts lanes, sticky board, emoji as icons, time rail.\n\nRight column: the same direction rebuilt around the question — options with consequence, time and risk, a recommended tag, a visible default with its countdown, hotkeys 1·2·3, and an 'other' field.\n\nAll boards are 520 px wide: the transcript column of a Claude Desktop window at ~40% of the screen. Two-lane layouts stack; three-column boards get tight on purpose, so you can judge them at that width.\n\nAnimations are CSS here; in the terminal the mod redraws at ≤10 fps, so pulses and blinks are the realistic ceiling."
+    },
+    {
+      "id": "note-e",
+      "x": 0,
+      "y": 4615,
+      "w": 520,
+      "text": "E · Tinted rows\nWhy: the background carries the marker for what needs you (decide, read) and the eye sorts rows by tint before reading a word. Done rows are neutral with a dark-green check, so green never floods the card (changed on request: the green fills added too much colour).\nTrade-off: tints must stay legible on both terminal themes; the decision row pulses."
+    },
+    {
+      "id": "note-e2",
+      "x": 640,
+      "y": 4615,
+      "w": 520,
+      "text": "E′ · Tinted rows, asking\nThe question owns the card: recommended option as the bright row, default option marked and timed with a shrinking bar, third row is a free-text field. Rest of the card folded to one line."
+    },
+    {
+      "id": "note-f",
+      "x": 0,
+      "y": 5815,
+      "w": 520,
+      "text": "F · Receipt\nWhy: one colour, ASCII only, works in every terminal ever made and in a screen reader; dotted leaders line the statuses up in a column.\nTrade-off: no colour semantics at all — [OK] [!!] [??] carry everything; retro look is a taste."
+    },
+    {
+      "id": "note-f2",
+      "x": 640,
+      "y": 5815,
+      "w": 520,
+      "text": "F′ · Receipt, asking\nThe question as a till menu: numbered items, TIME and RISK columns, the house recommendation starred, default and countdown in the header, 'press 1-3 then Enter'."
+    },
+    {
+      "id": "note-g",
+      "x": 0,
+      "y": 7015,
+      "w": 520,
+      "text": "G · Two lanes\nWhy: the split is semantic, not cosmetic — left is what needs you (decide, read, blocked), right is what I did. You can read only the left lane and lose nothing you must act on.\nTrade-off: needs ≥100 columns; bubbles cost vertical space."
+    },
+    {
+      "id": "note-g2",
+      "x": 640,
+      "y": 7015,
+      "w": 520,
+      "text": "G′ · Two lanes, asking\nLeft: the options as quick-reply bubbles with hotkeys. Right: for each option, a preview bubble of what happens next, plus the 'why I recommend' bubble. Like a chat with quick replies."
+    },
+    {
+      "id": "note-h",
+      "x": 0,
+      "y": 8215,
+      "w": 520,
+      "text": "H · Sticky-note board\nWhy: three columns by what you do with it (decide / done / read), one note per fact, paper backgrounds; notes drop in.\nTrade-off: the busiest of the ten; small type; needs a wide pane. Best for long replies, worst for a one-liner."
+    },
+    {
+      "id": "note-h2",
+      "x": 640,
+      "y": 8215,
+      "w": 520,
+      "text": "H′ · Board, asking\nOptions are notes you drag into DECIDED (or press 1·2·3); each note carries effort dots and a risk stripe; the default slides in by itself when the countdown ends; a WHY column explains the ask."
+    },
+    {
+      "id": "note-i",
+      "x": 0,
+      "y": 9415,
+      "w": 520,
+      "text": "I · Big emoji sections\nWhy: your markers become section icons, 40px tall, with a coloured left border and a soft gradient per section — the emoji finally carry weight instead of hiding in the gutter.\nTrade-off: emoji rendering differs per terminal font; gradients are Desktop-only (terminal falls back to flat tints)."
+    },
+    {
+      "id": "note-i2",
+      "x": 640,
+      "y": 9415,
+      "w": 520,
+      "text": "I′ · Emoji tiles, asking\nThree big tiles, one per option, the recommended one glowing; consequence, time and risk under each; default with countdown; an 'other' field in the third tile."
+    },
+    {
+      "id": "note-j",
+      "x": 0,
+      "y": 10615,
+      "w": 520,
+      "text": "J · Timeline rail\nWhy: the reply is a story in time — each done task is a node with its minute, the warning hangs off the node it belongs to, the decision is the pulsing 'now' node, the next step is a dashed ghost.\nTrade-off: order is not always the point; timestamps cost 6 columns; a reply with ten tasks becomes a long rail."
+    },
+    {
+      "id": "note-j2",
+      "x": 640,
+      "y": 10615,
+      "w": 520,
+      "text": "J′ · Branching futures, asking\nFrom the 'now' node, three branches to three futures: what the rail looks like at 11:50 if you say yes, where it ends if you say no, and a stretch you write yourself. Recommended branch solid and animated, others dashed."
+    },
+    {
+      "id": "note-a2",
+      "x": 0,
+      "y": 11815,
+      "w": 520,
+      "text": "K · gmorel-1.0.0 — your layout (final render only, notes live here)\nTop to bottom: header \"For you\" (a dim green ✓ at its right when an observer agent is running) · four counters from D: decision · done, proven · to read · blocked · the decision box from C: yellow border, DECISION label, default spelled out, question in bold, two labelled buttons · the marker lines of A with their emoji (🟢 done with proof, ⚠️ read, ▫️ notes) · one dim line for the ℹ️ skippable items with [ show ].\nFourth theme of the repo: hooks/themes/gmorel.ts, 1.0.0, transcribed from this artboard."
+    },
+    {
+      "id": "note-c2",
+      "x": 640,
+      "y": 2215,
+      "w": 520,
+      "text": "C′ · after the clicks\nAsked on the canvas: C, once the buttons have been pressed. [yes, patch it] turns the decision box green and puts the answer in the prompt box ($.prompt.fill) — Enter sends it, Esc puts the question back; nothing is sent behind your back. [open] on DONE and NOTES unfolds them in place and the button becomes [close]. [show] on the folded narration reveals the two tool calls and the narration line, dim and italic. SKIP was not touched, so it stays folded.\nEvery state change is one $.ui.invalidate redraw, so no frame animates; the only motion is the cursor."
+    },
+    {
+      "id": "note-k2",
+      "x": 640,
+      "y": 11815,
+      "w": 520,
+      "text": "K′ · gmorel-1.0.0 in a real transcript — final render only, explanations here\nTop to bottom: 1 your prompt · 2 a background-task notification folded to one dim line with [show] · 3 a canvas comment arriving as a compact cyan card: artifact name, anchored artboard, time, the quoted text only, short thread id, a link to open it on the canvas — the boilerplate of the raw message is hidden · 4 the tool calls of the turn folded to one dim line · 5 the K card: header with the dim ✓ (an observer was running), four counters, the decision box with its buttons, the marker lines, the ℹ️ fold · 6 the outgoing side, a green card: the reply Claude posted in the same thread, the thread's resolved state, time, links to the full reply and to reopen · 7 the turn footer and the prompt box.\nMechanism: 3 is a UserMessage whose text starts with \"[Artifact comment sent to Claude]\" (parsed for artifact, thread, quoted lines); 6 pairs the Artifact tool calls reply/resolve carrying the same thread id.\nCheck: is this enough to implement? Anything missing goes in a comment on this artboard."
+    },
+    {
+      "id": "note-k3",
+      "x": 0,
+      "y": 13015,
+      "w": 520,
+      "text": "K″ · the decision box grows into a chooser\nA 🟡 with 2–4 options is drawn as numbered rows inside the yellow box: title, badge (recommended / default), one line of consequence, and a right column with the estimate, the risk (green / amber / red) and the theoretical cost. The default and its timer come from the \"if you say nothing\" clause. Row 1 tinted because it is recommended. Keys 1–4 fill the prompt; Enter sends. The rest of the card folds to one line so the question owns the screen."
+    },
+    {
+      "id": "note-k4",
+      "x": 640,
+      "y": 13015,
+      "w": 520,
+      "text": "K · blocked\nA 🔴 replaces the yellow box with a red one: what is blocked, what only you can do, the command to run, what continues meanwhile. The blocked counter turns red; the decision counter goes dim at 0. Done rows keep their proofs."
+    },
+    {
+      "id": "note-k5",
+      "x": 0,
+      "y": 14315,
+      "w": 520,
+      "text": "K · an answer\nNo 🟡, no 🔴, no 🟢: the header says Answer · nothing to do, the counters grid is dropped, no witness ✓ is claimed.\nScan order by colour: the verdict sits in a cyan-edged box, its key words coloured (green = what holds, amber = the limit); context lines open with a bold white lead and step back to grey; identifiers are chips; table labels are coloured by meaning (green shown · grey absent · amber hidden); code output is grey, the command cyan; the picture line is italic.\nRule of the theme: white and bold only for what to read first — everything else steps back to grey."
+    },
+    {
+      "id": "note-k6",
+      "x": 640,
+      "y": 14315,
+      "w": 520,
+      "text": "K · long report\nEight 🟢 with their proofs and clickable paths, a code block with the test output, two ⚠️, one ▫️. The card scrolls with the transcript; nothing is truncated, the ℹ️ fold is the only hidden part. The tool calls of the turn fold to one line with a show chip."
+    },
+    {
+      "id": "note-k7",
+      "x": 0,
+      "y": 15515,
+      "w": 520,
+      "text": "K · one line\nA reply that is a single 🟢 has no header and no counters: one bordered row with the marker, the text and the witness ✓. The background-task notification folds to one dim line with a show chip; the follow-up is again one row. The theoretical cost sits at the right of every footer."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

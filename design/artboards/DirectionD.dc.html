@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&amp;display=swap">
+  <style>
+    body { margin: 0; background: #0F1620; }
+    a { color: #4CC9DC; } a:hover { color: #7FDDEA; }
+  </style>
+</helmet>
+<div style="width: 520px; min-height: 760px; background: #0F1620; color: #DCE6F0; font-family: 'IBM Plex Mono', Menlo, Consolas, monospace; font-size: 13px; line-height: 1.55; padding: 18px 20px 22px 20px; display: flex; flex-direction: column; gap: 14px; box-sizing: border-box;">
+
+  <div style="display: flex; flex-direction: column; gap: 2px; color: #6B7A8A;">
+    <div style="display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span>Steal the mermaid mod and put it in my claude OSX home</span></div>
+    <div style="display: flex; gap: 8px;"><span>⏺</span><span>Bash(rsync -a --exclude node_modules … ~/.claude/skills/claude-mermaid/)</span></div>
+    <div style="display: flex; gap: 8px;"><span>⏺</span><span>Bash(bun test tests/diagrams.test.ts)</span></div>
+  </div>
+
+  <div style="display: flex; gap: 10px; align-items: flex-start;">
+    <span>⏺</span>
+    <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 10px;">
+
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px;">
+        <div style="border: 1px solid #F2C14E; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #F2C14E; line-height: 1.1;">1</span><span style="font-size: 11px; color: #A7B3C0;">decision</span></div>
+        <div style="border: 1px solid #2A3A4C; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #5CC48A; line-height: 1.1;">5/5</span><span style="font-size: 11px; color: #A7B3C0;">done, proven</span></div>
+        <div style="border: 1px solid #2A3A4C; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #F0A050; line-height: 1.1;">1</span><span style="font-size: 11px; color: #A7B3C0;">to read</span></div>
+        <div style="border: 1px solid #2A3A4C; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column;"><span style="font-size: 20px; font-weight: 700; color: #6B7A8A; line-height: 1.1;">0</span><span style="font-size: 11px; color: #A7B3C0;">blocked</span></div>
+      </div>
+
+      <div style="border: 1px solid #F2C14E; border-radius: 4px; padding: 8px 12px; display: flex; gap: 12px; align-items: center;">
+        <span style="color: #F2C14E; font-size: 11px; letter-spacing: 0.08em; font-weight: 700;">DECIDE</span>
+        <span style="flex-grow: 1; font-weight: 700;">Patch your copy so fences inside a quote are drawn too?</span>
+        <span style="color: #6B7A8A; font-size: 12px;">default: leave it</span>
+        <span style="background: #F2C14E; color: #0F1620; border-radius: 3px; padding: 0 10px; font-weight: 700;">yes</span>
+        <span style="border: 1px solid #4B5867; color: #A7B3C0; border-radius: 3px; padding: 0 10px;">no</span>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 20px minmax(0, 1.2fr) minmax(0, 1fr); gap: 4px 12px; align-items: baseline;">
+        <div style="color: #6B7A8A; font-size: 11px; letter-spacing: 0.08em; padding-bottom: 4px; border-bottom: 1px solid #2A3A4C;"></div>
+        <div style="color: #6B7A8A; font-size: 11px; letter-spacing: 0.08em; padding-bottom: 4px; border-bottom: 1px solid #2A3A4C;">TASK</div>
+        <div style="color: #6B7A8A; font-size: 11px; letter-spacing: 0.08em; padding-bottom: 4px; border-bottom: 1px solid #2A3A4C;">PROOF</div>
+
+        <div style="color: #5CC48A; font-weight: 700;">✓</div><div>Copied to ~/.claude/skills/claude-mermaid</div><div style="color: #A7B3C0;">16 files, LICENSE, provenance line</div>
+        <div style="color: #5CC48A; font-weight: 700;">✓</div><div>Loads from there</div><div style="color: #A7B3C0;">claude-mermaid@skills-dir · loaded, debug log</div>
+        <div style="color: #5CC48A; font-weight: 700;">✓</div><div>Draws from there</div><div style="color: #A7B3C0;">Copie → Test → OK, screen captured</div>
+        <div style="color: #5CC48A; font-weight: 700;">✓</div><div>Marketplace copy uninstalled</div><div style="color: #A7B3C0;">claude-queue stays</div>
+        <div style="color: #5CC48A; font-weight: 700;">✓</div><div>Tests and backup</div><div style="color: #A7B3C0;">42/42 · mirror 09:36:27Z</div>
+        <div style="color: #F0A050; font-weight: 700;">!</div><div style="color: #F0A050;">Two ui.render hooks if the marketplace copy had stayed</div><div style="color: #A7B3C0;">why the uninstall</div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 2px; color: #8C99A6; font-size: 12px; padding-top: 4px; border-top: 1px solid #2A3A4C;">
+        <div>¹ cmux workspace 18 still runs the old copy; the next claude takes yours.</div>
+        <div>² Picture: you had the library book; now you have your own annotatable photocopy.</div>
+        <div style="color: #6B7A8A;">³ 1 skippable line folded</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div style="color: #6B7A8A;">✻ Worked for 4s · done 11:36 AM</div>
+  <div style="border-top: 1px solid #2A3A4C; padding-top: 8px; display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span style="color: #4B5867;">|</span></div>
+</div>
+</x-dc>
+</body>
+</html>

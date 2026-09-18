@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&amp;display=swap">
+  <style>
+    body { margin: 0; background: #0F1620; }
+    a { color: #4CC9DC; } a:hover { color: #7FDDEA; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
+</helmet>
+<div style="width: 520px; min-height: 760px; background: #0F1620; color: #DCE6F0; font-family: 'IBM Plex Mono', Menlo, Consolas, monospace; font-size: 13px; line-height: 1.55; padding: 18px 20px 22px 20px; display: flex; flex-direction: column; gap: 14px; box-sizing: border-box;">
+
+  <div style="display: flex; flex-direction: column; gap: 2px; color: #6B7A8A;">
+    <div style="display: flex; gap: 8px;"><span style="color: #F2C14E;">❯</span><span>Steal the mermaid mod and put it in my claude OSX home</span></div>
+    <div style="display: flex; gap: 8px; align-items: baseline;"><span>⏺</span><span style="color: #4B5867;">2 tool calls, 1 narration line</span><span style="border: 1px solid #2A3A4C; border-radius: 3px; padding: 0 8px; color: #6B7A8A;">hide</span><span style="color: #4CC9DC; font-size: 11px;">← after [show]</span></div>
+    <div style="display: flex; gap: 8px; padding-left: 20px;"><span>⏺</span><span>Bash(rsync -a --exclude node_modules … ~/.claude/skills/claude-mermaid/)</span></div>
+    <div style="display: flex; gap: 8px; padding-left: 20px;"><span>⏺</span><span>Bash(bun test tests/diagrams.test.ts)</span></div>
+    <div style="display: flex; gap: 8px; padding-left: 20px; color: #4B5867; font-style: italic;"><span>⏺</span><span>Copying the plugin, then running its unit tests.</span></div>
+  </div>
+
+  <div style="display: flex; gap: 10px; align-items: flex-start;">
+    <span>⏺</span>
+    <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 10px;">
+
+      <div style="background: #DCE6F0; color: #0F1620; font-weight: 700; font-size: 15px; padding: 8px 14px; border-radius: 4px;">claude-mermaid is yours now: copied, loaded, drawing.</div>
+
+      <div style="border: 1px solid #2F8F5B; border-radius: 6px; padding: 8px 14px; display: flex; flex-direction: column; gap: 4px; background: #121B22;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 10px;">
+          <span style="color: #5CC48A; font-size: 11px; letter-spacing: 0.08em; font-weight: 700;">ANSWERED · yes, patch it</span>
+          <span style="color: #4CC9DC; font-size: 11px;">← after [yes, patch it]</span>
+        </div>
+        <div style="color: #A7B3C0; font-size: 12px;">Your answer is in the prompt box below. Enter sends it; Esc puts the question back.</div>
+        <div style="display: flex; gap: 8px; color: #6B7A8A; font-size: 12px;"><span style="text-decoration: line-through;">no, keep the original</span><span>· change</span></div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <div style="display: flex; gap: 10px; align-items: center; padding: 6px 0; border-bottom: 1px solid #2A3A4C;">
+          <span style="color: #F0A050; font-weight: 700;">!</span>
+          <span style="color: #F0A050; font-size: 11px; letter-spacing: 0.08em; font-weight: 700; width: 56px;">READ</span>
+          <span style="flex-grow: 1;">Two ui.render hooks would fire if the marketplace copy had stayed.</span>
+        </div>
+
+        <div style="display: flex; gap: 10px; align-items: center; padding: 6px 0;">
+          <span style="color: #5CC48A; font-weight: 700;">✓</span>
+          <span style="color: #5CC48A; font-size: 11px; letter-spacing: 0.08em; font-weight: 700; width: 56px;">DONE</span>
+          <span style="flex-grow: 1; color: #A7B3C0;">5 tasks, each with its proof</span>
+          <span style="border: 1px solid #4B5867; border-radius: 3px; padding: 0 8px; color: #A7B3C0;">close ▾</span>
+          <span style="color: #4CC9DC; font-size: 11px;">← after [open]</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 3px; padding: 0 0 8px 26px; border-bottom: 1px solid #2A3A4C;">
+          <div>Copied to ~/.claude/skills/claude-mermaid <span style="color: #6B7A8A;">— 16 files, LICENSE, provenance line</span></div>
+          <div>Loads from there <span style="color: #6B7A8A;">— claude-mermaid@skills-dir · loaded, debug log read</span></div>
+          <div>Draws from there <span style="color: #6B7A8A;">— Copie → Test → OK in a fresh session, screen captured</span></div>
+          <div>Marketplace copy uninstalled <span style="color: #6B7A8A;">— claude-queue stays</span></div>
+          <div>42/42 unit tests <span style="color: #6B7A8A;">— backup mirror checked 09:36:27Z</span></div>
+        </div>
+
+        <div style="display: flex; gap: 10px; align-items: center; padding: 6px 0;">
+          <span style="color: #8C99A6; font-weight: 700;">·</span>
+          <span style="color: #8C99A6; font-size: 11px; letter-spacing: 0.08em; font-weight: 700; width: 56px;">NOTES</span>
+          <span style="flex-grow: 1; color: #A7B3C0;">2 lines</span>
+          <span style="border: 1px solid #4B5867; border-radius: 3px; padding: 0 8px; color: #A7B3C0;">close ▾</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 3px; padding: 0 0 8px 26px; border-bottom: 1px solid #2A3A4C; color: #A7B3C0;">
+          <div>cmux workspace 18 still runs the old copy; the next claude takes yours.</div>
+          <div>Picture: you had the library book; now you have your own annotatable photocopy.</div>
+        </div>
+
+        <div style="display: flex; gap: 10px; align-items: center; padding: 6px 0;">
+          <span style="color: #6B7A8A; font-weight: 700;">·</span>
+          <span style="color: #6B7A8A; font-size: 11px; letter-spacing: 0.08em; font-weight: 700; width: 56px;">SKIP</span>
+          <span style="flex-grow: 1; color: #6B7A8A;">1 line</span>
+          <span style="border: 1px solid #2A3A4C; border-radius: 3px; padding: 0 8px; color: #6B7A8A;">open ▸</span>
+          <span style="color: #4B5867; font-size: 11px;">← untouched</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div style="color: #6B7A8A;">✻ Worked for 4s · done 11:36 AM</div>
+  <div style="border-top: 1px solid #2A3A4C; padding-top: 8px; display: flex; gap: 8px; align-items: baseline;"><span style="color: #F2C14E;">❯</span><span>yes, patch it</span><span class="cursor" style="background: #DCE6F0; color: #DCE6F0;">_</span><span style="color: #4CC9DC; font-size: 11px; margin-left: 8px;">← $.prompt.fill, not sent yet</span></div>
+</div>
+</x-dc>
+</body>
+</html>

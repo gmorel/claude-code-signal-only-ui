@@ -1,0 +1,4 @@
+{
+  "description": "signal-only-ui: draws Claude's reply card from its markers, folds the noise, hides observer reports behind a witness check. Needs CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1; builds without function hooks ignore the modules key.",
+  "modules": ["./register.ts"]
+}

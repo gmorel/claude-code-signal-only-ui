@@ -1,0 +1,7 @@
+> **👉 Pour toi**
+> 🟡 **À décider : A, B ou C ? Quelle approche pour CI une fois le repo public. A = fake both. B = record real sessions. C = install both. Sans réponse de ta part : B**
+> ▫️ A — fake both. ~2h. Risk: high.
+> ▫️ B — record real sessions. ≈ 45 min. risque : faible. Coût : ~$1.
+> ▫️ C — install both. 1 day. Risk: medium.
+> 🟢 42/42 tests unitaires passent.
+> ⚠️ Le badge README dira « failing » sans réponse CI.
